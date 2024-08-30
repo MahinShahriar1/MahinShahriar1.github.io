@@ -2,7 +2,7 @@
   "basics": {
     "name": "Mahin Shahriar",
     "label": "Fresh Graduate",
-    "image": "",
+    "image": "img/prof_pic.jpg",
     "email": "mahinshahriar10@gmail.com",
     "phone": "01799031150",
     "url": "https://mahinshahriar1.github.io",
@@ -97,7 +97,7 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Deep Neural Network (using TensorFlow and Keras and Pytorch)",
-        "Image processing (using OpenCV)",
+        "Image processing (using OpenCV)"
       ],
 
       "name": " Hardware Skills",
@@ -105,14 +105,14 @@
       "icon": "fa-solid fa-tag",
       "keywords":[
         " Arduino, FPGA",
-        "ATMGEA32",
+        "ATMGEA32"
       ],
 
       "name": " Performing Arts",
       "level": "Master",
       "icon": "fa-solid fa-tag",
       "keywords":[
-        "Public Speaking",
+        "Public Speaking"
       ],
 
       "name": "Document Preparation",
@@ -123,8 +123,7 @@
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word",
-        "Microsoft Power-point",
-        
+        "Microsoft Power-point"  
       ],
       "name": "Programming Languages",
       "level": "Master",
@@ -133,7 +132,7 @@
         "C/C++",
         "Python",
          "System Verilog",
-         "MATLAB",
+         "MATLAB"
       ],
 
       "name": "Tools and Technology",
@@ -147,13 +146,13 @@
         "PSpice",
         "Proteus",
         "AutoCAD",
-        " PSAF",
+        " PSAF"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Bangla",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -165,15 +164,24 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Artificial intelligence",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision"
+      ]
+    }
+
+    {
+      "name": "Electrical Energy and Power Systems (EEPS)",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Power System",
+        "Smart Grid",
+        "Micro Grid",
+        "Power System Protection",
+        "High Voltage Engineering"
       ]
     }
   ],
