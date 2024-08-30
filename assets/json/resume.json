@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Mahin Shahriar",
-    "label": "Fresh Graduate",
-    "image": "img/prof_pic.jpg",
-    "email": "mahinshahriar10@gmail.com",
-    "phone": "01799031150",
-    "url": "https://mahinshahriar1.github.io",
-    "summary": "A graduate from the Department of Electrical and Electronic Engineering at BUET, eager to explore the field of AI in power systems.",
+    "name": "Albert Einstein",
+    "label": "Scientist",
+    "image": "",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "14/2 Keramot Mastan Lane, New Courtpara, Kushtia Sadar",
-      "postalCode": "7000",
-      "city": "Kushtia",
-      "countryCode": "BD",
-      "region": "western Bangladesh"
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "MahinShahriar1",
-        "url": "https://twitter.com/MahinShahriar1"
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
       }
     ]
   },
