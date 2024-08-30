@@ -30,9 +30,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/MahinShahriar1/Power_Project-on-ANN">al-folio</a>
+      year: 2024
+      description: Power flow analysis was conducted on an IEEE five-bus system to study phenomena such as over/under voltage and overloads using an ANN architecture. The project aimed to overcome the limitations of traditional power flow algorithms such as Newton’s Raphson and the Fast Decouple method.
 
 - title: Honors and Awards
   type: time_table
