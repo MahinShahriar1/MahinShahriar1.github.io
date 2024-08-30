@@ -97,23 +97,26 @@
       "keywords": [
         "Deep Neural Network (using TensorFlow and Keras and Pytorch)",
         "Image processing (using OpenCV)"
-      ],
-
+      ]
+    },
+    {
       "name": " Hardware Skills",
       "level": "Master",
       "icon": "fa-solid fa-tag",
       "keywords":[
         " Arduino, FPGA",
         "ATMGEA32"
-      ],
-
+      ]
+    },
+    {
       "name": " Performing Arts",
       "level": "Master",
       "icon": "fa-solid fa-tag",
       "keywords":[
         "Public Speaking"
-      ],
-
+      ]
+    },
+    {
       "name": "Document Preparation",
       "level": "Master",
       "icon": "fa-solid fa-tag",
@@ -123,7 +126,9 @@
         "Microsoft Excel",
         "Microsoft Word",
         "Microsoft Power-point"  
-      ],
+      ]
+    },
+    {
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
@@ -132,8 +137,9 @@
         "Python",
          "System Verilog",
          "MATLAB"
-      ],
-
+      ]
+    },
+    {
       "name": "Tools and Technology",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
@@ -209,27 +215,4 @@
 }
 
 
-{
-  "basics": {
-    "name": "Mahin Shahriar",
-    "label": "Fresh Graduate",
-    "image": "img/prof_pic.jpg",
-    "email": "mahinshahriar10@gmail.com",
-    "phone": "01799031150",
-    "url": "https://mahinshahriar1.github.io",
-    "summary": "A graduate from the Department of Electrical and Electronic Engineering at BUET, eager to explore the field of AI in power systems.",
-    "location": {
-      "address": "14/2 Keramot Mastan Lane, New Courtpara, Kushtia Sadar",
-      "postalCode": "7000",
-      "city": "Kushtia",
-      "countryCode": "BD",
-      "region": "western Bangladesh"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "MahinShahriar1",
-        "url": "https://twitter.com/MahinShahriar1"
-      }
-    ]
-  },
+
