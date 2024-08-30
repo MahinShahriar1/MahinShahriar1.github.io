@@ -33,7 +33,24 @@
     - title: <a href="https://github.com/MahinShahriar1/Power_Project-on-ANN">al-folio</a>
       year: 2024
       description: Power flow analysis was conducted on an IEEE five-bus system to study phenomena such as over/under voltage and overloads using an ANN architecture. The project aimed to overcome the limitations of traditional power flow algorithms such as Newton’s Raphson and the Fast Decouple method.
-
+    - title: <a href="https://github.com/MahinShahriar1/Electric-Service-Design-Project">al-folio</a>
+      year: 2024
+      description: This project focuses on developing a precise electrical plan to ensure tenant comfort and safety while converting a residential property into a ten-story complex, incorporating modern features such as a garage and a rooftop pool.
+     - title: <a href="https://github.com/MahinShahriar1/Build-an-8-bit-computer-from-scratch-Inspired-by-Ben-Eater-">al-folio</a>
+      year: 2023
+      description: This project aims to build an 8-bit SAP (Simple As Possible) computer on a breadboard from scratch, inspired by Ben Eater’s schematics.
+     - title: <a href="https://github.com/MahinShahriar1/Digital_Electronics_Project">al-folio</a>
+      year: 2022
+      description: This project emphasizes the fabrication of a digital clock capable of performing various clock mechanisms, including a stopwatch and timer.
+    - title: <a href="https://github.com/MahinShahriar1/DSP_Project">al-folio</a>
+      year: 2022
+      description: This project focuses on implementing an LDA machine learning model to detect epileptic seizures.
+    - title: <a href="https://github.com/MahinShahriar1/Control-System-Project">al-folio</a>
+      year: 2022
+      description:  This project utilized WiFi ESP32/IoT modules and the Blynk mobile app to establish wireless connectivity for controlling appliances such as lights, fans, and monitors. It also enabled the saving of real-time sensor data on a mobile device or the Blynk server.
+    - title: <a href="https://github.com/MahinShahriar1/MATLAB_Project">al-folio</a>
+      year: 2021
+      description:  The game was based on the Gauss-Jordan method with pivot. Two panzers fire shells at each other, with three walls placed between them as barriers.
 - title: Honors and Awards
   type: time_table
   contents:
