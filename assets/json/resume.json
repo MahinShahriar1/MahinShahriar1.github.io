@@ -2,7 +2,7 @@
   "basics": {
     "name": "Mahin Shahriar",
     "label": "Fresh Graduate",
-    "image": "prof_pic.jpg",
+    "image": "",
     "email": "mahinshahriar10@gmail.com",
     "phone": "01799031150",
     "url": "https://mahinshahriar1.github.io",
@@ -27,8 +27,8 @@
     {
       "institution": " Bangladesh University of Engineering and Technology",
       "location": "Dhaka, Bangladesh",
-      "url": "https://www.buet.ac.bd/",
-      "area": "Power System",
+      "url": "https://www.buet.ac.bd",
+      "area": "Electrical and Electronic Engineering",
       "studyType": "UG",
       "startDate": "2019-04-29",
       "endDate": "2024-06-02",
