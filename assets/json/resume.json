@@ -59,24 +59,42 @@
       "courses": ""
     },
     {
-      "institution": "Bangladesh University of Engineering and Technology",
+      "institution": "Notre Dame College",
       "location": "Dhaka, Bangladesh",
-      "url": "https://www.buet.ac.bd/",
-      "area": "Electrical and Electronic Engineering",
-      "studyType": "UG",
-      "startDate": "2019-04-29",
-      "endDate": "2024-06-02",
-      "score": "",
+      "url": "https://ndc.edu.bd/",
+      "area": "Science",
+      "studyType": "HSC",
+      "startDate": "",
+      "endDate": "2018-07-19",
+      "score": "GPA 5.00",
+      "courses": ""
+    },
+    {
+      "institution": "Kushtia Zilla School",
+      "location": "Kushtia, Bangladesh",
+      "url": "https://kushtiazillaschool.edu.bd/",
+      "area": "Science",
+      "studyType": "SSC",
+      "startDate": "",
+      "endDate": "2016-04-11",
+      "score": "GPA 5.00",
       "courses": ""
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "EEE Faculty Dean’s List Award",
+      "date": "",
+      "awarder": "Department of Electrical and Electronic Engineering",
+      "url": "",
+      "summary": "The Dean's List recognizes undergraduate students that have achieved high scholastic standing for the term."
+    },
+    {
+      "title": " Board scholarships e.g., HSC, SSC",
+      "date": "",
+      "awarder": "Board of Education of Jessore and Dhaka",
+      "url": "",
+      "summary": "The SSC and HSC Scholarships are a merit-based academic award for students who excel in their  SSC and HSC examinations in Bangladesh."
     }
   ],
   "certificates": [
