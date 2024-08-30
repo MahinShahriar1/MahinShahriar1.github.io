@@ -22,94 +22,49 @@
       }
     ]
   },
-  "work": [
+ 
+"education": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": " Bangladesh University of Engineering and Technology",
+      "location": "Dhaka, Bangladesh",
+      "url": "https://www.buet.ac.bd",
+      "area": "Electrical and Electronic Engineering",
+      "studyType": "UG",
+      "startDate": "2019-04-29",
+      "endDate": "2024-06-02",
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "EEE Faculty Dean’s List Award",
+      "date": "Level 2 Term 2, Level 4 Term 1 & 2",
+      "awarder": "Departmet of Electrical and Electronic Engineering",      
+      "summary": "The Dean's List is an academic honor typically awarded to students who achieve high academic performance during a specific semester or academic year."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "HIGHER SECONDARY CERTIFICATE",
+      "date": "2018-07-19",
+      "issuer": "Notre dame College",
+      "url": "https://drive.google.com/drive/folders/19waS8_ziJSCwIE8f23R6D9FGueQlAbhw?usp=sharing",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "SECONDARY SCHOOL CERTIFICATE",
+      "date": "2016-05-11",
+      "issuer": "Kushtia Zilla School",
+      "url": "https://drive.google.com/drive/folders/19waS8_ziJSCwIE8f23R6D9FGueQlAbhw?usp=sharing",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "JUNIOR SCHOOL CERTIFICATE",
+      "date": "2013-12-29",
+      "issuer": "Kushtia Zilla School",
+      "url": "https://drive.google.com/drive/folders/19waS8_ziJSCwIE8f23R6D9FGueQlAbhw?usp=sharing",
       "icon": "fa-solid fa-envelope"
     },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
+   
   ],
   "publications": [
     {
@@ -136,22 +91,67 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": " ML Frameworks and Libraries",
+      "level": "Master",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Deep Neural Network (using TensorFlow and Keras and Pytorch)",
+        "Image processing (using OpenCV)"
+      ],
+
+      "name": " Hardware Skills",
+      "level": "Master",
+      "icon": "fa-solid fa-tag",
+      "keywords":[
+        " Arduino, FPGA",
+        "ATMGEA32"
+      ],
+
+      "name": " Performing Arts",
+      "level": "Master",
+      "icon": "fa-solid fa-tag",
+      "keywords":[
+        "Public Speaking"
+      ],
+
+      "name": "Document Preparation",
+      "level": "Master",
+      "icon": "fa-solid fa-tag",
+      "keywords":[
+        "Overleaf(LaTex)",
+        "Microsoft Office",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Power-point"  
+      ],
+      "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "keywords":[
+        "C/C++",
+        "Python",
+         "System Verilog",
+         "MATLAB"
+      ],
+
+      "name": "Tools and Technology",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords":[
+         "Simulink",
+         "Quartus",
+        "Pycharm",
+        "ModelSim",
+        "PSpice",
+        "Proteus",
+        "AutoCAD",
+        " PSAF"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Bangla",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,15 +163,24 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Artificial intelligence",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision"
+      ]
+    }
+
+    {
+      "name": "Electrical Energy and Power Systems (EEPS)",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Power System",
+        "Smart Grid",
+        "Micro Grid",
+        "Power System Protection",
+        "High Voltage Engineering"
       ]
     }
   ],
@@ -198,3 +207,29 @@
     }
   ]
 }
+
+
+{
+  "basics": {
+    "name": "Mahin Shahriar",
+    "label": "Fresh Graduate",
+    "image": "img/prof_pic.jpg",
+    "email": "mahinshahriar10@gmail.com",
+    "phone": "01799031150",
+    "url": "https://mahinshahriar1.github.io",
+    "summary": "A graduate from the Department of Electrical and Electronic Engineering at BUET, eager to explore the field of AI in power systems.",
+    "location": {
+      "address": "14/2 Keramot Mastan Lane, New Courtpara, Kushtia Sadar",
+      "postalCode": "7000",
+      "city": "Kushtia",
+      "countryCode": "BD",
+      "region": "western Bangladesh"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "MahinShahriar1",
+        "url": "https://twitter.com/MahinShahriar1"
+      }
+    ]
+  },
