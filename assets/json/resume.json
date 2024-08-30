@@ -99,48 +99,29 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "HIGHER SECONDARY CERTIFICATE",
+      "date": "2018-07-19",
+      "issuer": "Notre dame College",
+      "url": "https://drive.google.com/drive/folders/19waS8_ziJSCwIE8f23R6D9FGueQlAbhw?usp=sharing",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "SECONDARY SCHOOL CERTIFICATE",
+      "date": "2016-05-11",
+      "issuer": "Kushtia Zilla School",
+      "url": "https://drive.google.com/drive/folders/19waS8_ziJSCwIE8f23R6D9FGueQlAbhw?usp=sharing",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "JUNIOR SCHOOL CERTIFICATE",
+      "date": "2013-12-29",
+      "issuer": "Kushtia Zilla School",
+      "url": "https://drive.google.com/drive/folders/19waS8_ziJSCwIE8f23R6D9FGueQlAbhw?usp=sharing",
       "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
+   
   ],
+
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
