@@ -1,13 +1,15 @@
 github_users:
-  - MahinShahriar1
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - MahinShahriar1/DSP_Project
-  - MahinShahriar1/MATLAB_Project
-  - MahinShahriar1/Power_Project-on-ANN
-  - MahinShahriar1/Digital_Electronics_Project
-  - MahinShahriar1/Control-System-Project
-  - MahinShahriar1/Build-an-8-bit-computer-from-scratch-Inspired-by-Ben-Eater-
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
   
