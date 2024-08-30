@@ -98,7 +98,7 @@
       "keywords": [
         "Deep Neural Network (using TensorFlow and Keras and Pytorch)",
         "Image processing (using OpenCV)",
-      ]
+      ],
 
       "name": " Hardware Skills",
       "level": "Master",
@@ -106,14 +106,14 @@
       "keywords":[
         " Arduino, FPGA",
         "ATMGEA32",
-      ]
+      ],
 
       "name": " Performing Arts",
       "level": "Master",
       "icon": "fa-solid fa-tag",
       "keywords":[
         "Public Speaking",
-      ]
+      ],
 
       "name": "Document Preparation",
       "level": "Master",
@@ -125,14 +125,7 @@
         "Microsoft Word",
         "Microsoft Power-point",
         
-      ]
-
-      "name": " ML Frameworks and Libraries",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords":[
-      ]
-
+      ],
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
@@ -141,7 +134,7 @@
         "Python",
          "System Verilog",
          "MATLAB",
-      ]
+      ],
 
       "name": "Tools and Technology",
       "level": "Master",
