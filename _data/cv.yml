@@ -36,10 +36,10 @@
     - title: <a href="https://github.com/MahinShahriar1/Electric-Service-Design-Project">al-folio</a>
       year: 2024
       description: This project focuses on developing a precise electrical plan to ensure tenant comfort and safety while converting a residential property into a ten-story complex, incorporating modern features such as a garage and a rooftop pool.
-     - title: <a href="https://github.com/MahinShahriar1/Build-an-8-bit-computer-from-scratch-Inspired-by-Ben-Eater-">al-folio</a>
+    - title: <a href="https://github.com/MahinShahriar1/Build-an-8-bit-computer-from-scratch-Inspired-by-Ben-Eater-">al-folio</a>
       year: 2023
       description: This project aims to build an 8-bit SAP (Simple As Possible) computer on a breadboard from scratch, inspired by Ben Eater’s schematics.
-     - title: <a href="https://github.com/MahinShahriar1/Digital_Electronics_Project">al-folio</a>
+    - title: <a href="https://github.com/MahinShahriar1/Digital_Electronics_Project">al-folio</a>
       year: 2022
       description: This project emphasizes the fabrication of a digital clock capable of performing various clock mechanisms, including a stopwatch and timer.
     - title: <a href="https://github.com/MahinShahriar1/DSP_Project">al-folio</a>
@@ -54,13 +54,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023,2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - EEE Faculty Dean’s List Award (Level 2/ Term 2, Level 4/Term 1 and Term 2, University Merit Scholarship from BUET.
+    - year: 2016,2018
       items:
-        - Max Planck Medal
+        -  Board scholarships e.g., HSC, SSC.
 
 - title: Academic Interests
   type: nested_list
