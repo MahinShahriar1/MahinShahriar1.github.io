@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>THE BEST VIEW COMES AFTER THE HARDEST CLIMB</a>
-
+subtitle: <a href='#'>Fresh Graduate, EEE, BUET</a>
 profile:
   align: right
   image: prof_pic.jpg
