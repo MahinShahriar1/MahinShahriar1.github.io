@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mahinshahriar.github.io/sitemap.xml
+Sitemap: https://mahinshahriar1.github.io/sitemap.xml
