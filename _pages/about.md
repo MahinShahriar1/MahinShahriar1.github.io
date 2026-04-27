@@ -13,7 +13,7 @@ profile:
   more_info: |
     <p>Ph.D. Student</p>
     <p>Electrical and Computer Engineering</p>
-    <p><a href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering" target="_blank" rel="noopener noreferrer">New York University</a></p>
+    <p>New York University</p>
 
 
 
