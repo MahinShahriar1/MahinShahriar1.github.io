@@ -2,33 +2,92 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+nav: true
+nav_order: 1
+
+subtitle: Ph.D. Student, Electrical and Computer Engineering, New York University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Ph.D. Student</p>
+    <p>Electrical and Computer Engineering</p>
+    <p>New York University</p>
+    <div class="profile-mini-social">
+      <a href="mailto:mahinshahriar10@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=Dz0oqSMAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://orcid.org/0009-0002-7536-9462" title="ORCID"><i class="ai ai-orcid"></i></a>
+      <a href="https://github.com/MahinShahriar1" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/mahin-shahriar-977748241" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<style>
+.profile .more-info {
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+.profile .more-info p {
+  margin-bottom: 0.25rem;
+}
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+.profile-mini-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.profile-mini-social a {
+  color: var(--global-theme-color) !important;
+  font-size: 1.65rem;
+  text-decoration: none;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.profile-mini-social a:hover {
+  color: var(--global-hover-color) !important;
+  transform: translateY(-2px);
+}
+</style>
+
+I am currently a Ph.D. student in the Department of Electrical and Computer Engineering at New York University, working under the supervision of Prof. Yuzhang Lin. My research focuses on power distribution systems, low-voltage network visibility, smart metering, graph analytics, and learning-based voltage estimation.
+
+Before joining NYU, I completed my undergraduate studies in Electrical and Electronic Engineering at Bangladesh University of Engineering & Technology. During that time, I worked under the guidance of Dr. Abdul Hasib Chowdhury on fault detection in transmission-line power-system networks, where I explored convolutional neural networks and computer vision methods for power-system monitoring.
+
+My current research investigates how sparse high-reporting-rate smart meters can be combined with existing advanced metering infrastructure to improve near-real-time voltage visibility in low-voltage distribution networks. I am particularly interested in strategic sensor placement, community detection, graph neural networks, and data-driven methods that can support reliable and intelligent operation of modern distribution grids.
+
+## Interests
+
+- Power Distribution Systems
+- Low-Voltage Network Visibility
+- Smart Metering and AMI Data Analytics
+- Graph Neural Networks
+- AI-Assisted Power System Monitoring
+
+## Education
+
+**Ph.D. in Electrical and Computer Engineering**  
+New York University, current
+
+**B.Sc. in Electrical and Electronic Engineering**  
+Bangladesh University of Engineering & Technology
