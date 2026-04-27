@@ -16,7 +16,7 @@ profile:
     <p>New York University</p>
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
