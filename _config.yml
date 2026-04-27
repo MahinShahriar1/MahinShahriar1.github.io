@@ -15,7 +15,7 @@ description: >
 
 keywords: electrical engineering, power systems, smart grids, microgrids, artificial intelligence, computer vision, energy systems
 lang: en
-icon: ⚡ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🦁 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mahinshahriar.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
