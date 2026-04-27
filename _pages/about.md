@@ -13,7 +13,8 @@ profile:
   more_info: |
     <p>Ph.D. Student</p>
     <p>Electrical and Computer Engineering</p>
-    <p>New York University</p>
+    <p><a href="https://www.nyu.edu/" target="_blank" rel="noopener noreferrer">New York University</a></p>
+
 
 
 selected_papers: false
