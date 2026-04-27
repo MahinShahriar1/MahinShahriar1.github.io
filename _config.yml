@@ -52,7 +52,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Search
-search_enabled: true
+search_enabled: false
 socials_in_search: false
 bib_search: true
 
