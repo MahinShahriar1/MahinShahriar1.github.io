@@ -8,9 +8,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>01799031150</p>
-    <p>232 Tejkunipara, Bijoy Soroni</p>
-    <p>Dhaka, Bangladesh</p>
+    <p>(+1) 929-781-2966</p>
+    <p>232 91-14, 121st street Richmond Hill</p>
+    <p>NY, USA, 11418</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
