@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Fresh Graduate, EEE, BUET</a>
+subtitle: <a href='#'>PhD Student, ECE, NYU Tandon School of Engineering</a>
 profile:
   align: right
   image: prof_pic.jpg
