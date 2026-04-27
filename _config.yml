@@ -7,12 +7,15 @@ first_name: Mahin
 middle_name:
 last_name: Shahriar
 email: mahinshahriar10@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+description: >
+  Academic portfolio of Mahin Shahriar, an Electrical and Electronic Engineering graduate
+  with interests in power systems, smart grids, microgrids, computer vision, and
+  AI-based applications in energy systems.
+
+keywords: electrical engineering, power systems, smart grids, microgrids, artificial intelligence, computer vision, energy systems
+lang: en
+icon: ⚡ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mahinshahriar.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -28,7 +31,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -47,8 +50,10 @@ rss_icon: false
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
+socials_in_search: false
 bib_search: true
+
+max_width: 1100px
 
 # Dimensions
 max_width: 1100px
