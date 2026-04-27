@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Mahin  Shahriar
 permalink: /
 nav: true
 nav_order: 1
