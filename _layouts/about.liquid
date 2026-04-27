@@ -1,11 +1,68 @@
 ---
 layout: default
 ---
+
+<style>
+  /* Keep the default al-folio About layout, but place social icons
+     directly under the profile image/info instead of at the bottom. */
+
+  .profile .more-info {
+    text-align: center;
+    margin-top: 0.85rem;
+  }
+
+  .profile .more-info p {
+    margin-bottom: 0.25rem;
+  }
+
+  .profile-social-compact {
+    margin-top: 0.9rem;
+    text-align: center;
+  }
+
+  .profile-social-compact .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+    max-width: 260px;
+    margin: 0 auto;
+    line-height: 1;
+  }
+
+  .profile-social-compact .contact-icons a {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: var(--global-theme-color) !important;
+    text-decoration: none !important;
+    transition: color 0.18s ease, transform 0.18s ease;
+  }
+
+  .profile-social-compact .contact-icons a:hover {
+    color: var(--global-hover-color) !important;
+    transform: translateY(-2px);
+  }
+
+  .profile-social-compact .contact-icons i,
+  .profile-social-compact .contact-icons svg,
+  .profile-social-compact .contact-icons .ai {
+    width: 1.35rem !important;
+    height: 1.35rem !important;
+    font-size: 1.35rem !important;
+  }
+
+  .profile-social-compact .contact-note {
+    display: none !important;
+  }
+</style>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span>
+        {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
@@ -19,21 +76,39 @@ layout: default
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+
+          {% capture sizes %}
+            (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px,
+            (min-width: 576px) 30vw,
+            95vw
+          {% endcapture %}
+
+          {% include figure.liquid
+            loading="eager"
+            path=profile_image_path
+            class=profile_image_class
+            sizes=sizes
+            alt=page.profile.image
             cache_bust=true
           %}
         {% endif %}
+
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+
+        {% if page.social %}
+          <div class="profile-social-compact">
+            <div class="contact-icons">
+              {% include social.liquid %}
+            </div>
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -62,15 +137,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
