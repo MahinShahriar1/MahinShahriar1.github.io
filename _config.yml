@@ -54,7 +54,7 @@ footer_fixed: true
 # Search
 search_enabled: true
 socials_in_search: false
-bib_search: false
+bib_search: true
 
 # Dimensions
 max_width: 1100px
@@ -189,7 +189,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /:collection/:title/
   projects:
     output: true
@@ -197,13 +197,13 @@ collections:
 
 announcements:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -309,8 +309,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Shahriar]
+  first_name: [Mahin, M.]
 
   style: apa
   locale: en
