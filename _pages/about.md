@@ -55,7 +55,7 @@ nav_order: 1
   }
 
   .profile-social {
-    margin-top: 1.1rem;
+    margin-top: 1.25rem;
   }
 
   .profile-social .social {
@@ -66,10 +66,11 @@ nav_order: 1
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.72rem;
+    gap: 0.95rem;
     flex-wrap: wrap;
-    font-size: 1.55rem !important;
     line-height: 1;
+    max-width: 285px;
+    margin: 0 auto;
   }
 
   .profile-social .contact-icons a {
@@ -85,16 +86,13 @@ nav_order: 1
 
   .profile-social .contact-icons svg,
   .profile-social .contact-icons i {
-    width: 1.55rem !important;
-    height: 1.55rem !important;
-    font-size: 1.55rem !important;
+    width: 2.05rem !important;
+    height: 2.05rem !important;
+    font-size: 2.05rem !important;
   }
 
   .profile-social .contact-note {
-    margin-top: 0.75rem;
-    font-size: 0.82rem;
-    line-height: 1.35;
-    color: var(--global-text-color-light);
+    display: none;
   }
 
   .bio-content {
@@ -109,14 +107,6 @@ nav_order: 1
 
   .bio-content a {
     color: var(--global-theme-color);
-  }
-
-  .cv-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    margin-top: 0.3rem;
-    font-size: 1.02rem;
   }
 
   .info-grid {
@@ -221,11 +211,6 @@ nav_order: 1
         particularly interested in strategic sensor placement, community detection,
         graph neural networks, and data-driven methods that can support reliable and
         intelligent operation of modern distribution grids.
-      </p>
-
-      <p class="cv-link">
-        <i class="fa-solid fa-download"></i>
-        <a href="{{ '/assets/pdf/Mahin_Shahriar_CV.pdf' | relative_url }}">Download my CV.</a>
       </p>
 
       <div class="info-grid">
