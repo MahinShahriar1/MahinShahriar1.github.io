@@ -47,13 +47,14 @@ rss_icon: false
 # Layout
 # -----------------------------------------------------------------------------
 
+
 navbar_fixed: true
 footer_fixed: true
+
+# Search
 search_enabled: true
 socials_in_search: false
-bib_search: true
-
-max_width: 1100px
+bib_search: false
 
 # Dimensions
 max_width: 1100px
@@ -135,14 +136,13 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Notes
+blog_description: Academic notes and updates
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: false
 
-# Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: false
