@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Mahin Shahriar",
-    "label": "Fresh Graduate",
+    "label": "PhD Student",
     "image": "img/prof_pic.jpg",
     "email": "mahinshahriar10@gmail.com",
-    "phone": "01799031150",
+    "phone": "+1 929 781 2966",
     "url": "https://mahinshahriar1.github.io",
-    "summary": "A graduate from the Department of Electrical and Electronic Engineering at BUET, eager to explore the field of AI in power systems.",
+    "summary": "Current PhD student at the Department of Electrical and Computer Engineering at NYU Tandon School of Engineering.",
     "location": {
-      "address": "14/2 Keramot Mastan Lane, New Courtpara, Kushtia Sadar",
-      "postalCode": "7000",
-      "city": "Kushtia",
-      "countryCode": "BD",
-      "region": "western Bangladesh"
+      "address": "9114 121st street Richmond Hill,",
+      "postalCode": "11418",
+      "city": "New York City",
+      "countryCode": "USA",
+      "region": "NY"
     },
     "profiles": [
       {
