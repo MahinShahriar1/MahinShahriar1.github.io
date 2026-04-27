@@ -11,9 +11,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p class="profile-side-role">Ph.D. Student</p>
-    <p class="profile-side-dept">Electrical and Computer Engineering</p>
-    <p class="profile-side-school">
+    <p>Ph.D. Student</p>
+    <p>Electrical and Computer Engineering</p>
+    <p>
       <a href="https://www.nyu.edu/" target="_blank" rel="noopener noreferrer">New York University</a>
     </p>
 
