@@ -1304,3 +1304,11 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+.repo .card.hoverable {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.repo .card.hoverable:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
