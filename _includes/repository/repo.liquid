@@ -1,13 +1,16 @@
-{% assign repo_url = include.repository | split: '/' %}
-{% assign owner = repo_url[0] %}
-{% assign repo = repo_url[1] %}
-
-<div class="repo p-3">
-  <a href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer">
-    <div class="card hoverable h-100">
+<div class="repo p-2 text-center">
+  <a href="https://github.com/{{ include.username }}" target="_blank" rel="noopener noreferrer">
+    <div class="card hoverable d-inline-block" style="max-width: 280px;">
+      <div style="height: 180px; overflow: hidden; background: #111827;">
+        <img
+          src="{{ '/assets/img/repo_preview/159996034.jpg' | relative_url }}"
+          alt="{{ include.username }}"
+          style="width: 100%; height: 100%; object-fit: cover;"
+        >
+      </div>
       <div class="card-body">
-        <h5 class="card-title mb-1">{{ repo }}</h5>
-        <p class="card-text text-muted mb-0">{{ owner }}/{{ repo }}</p>
+        <h5 class="card-title mb-1">{{ include.username }}</h5>
+        <p class="card-text text-muted mb-0">GitHub profile</p>
       </div>
     </div>
   </a>
