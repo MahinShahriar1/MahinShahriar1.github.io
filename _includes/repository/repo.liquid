@@ -1,16 +1,22 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}" target="_blank" rel="noopener noreferrer">
-    <div class="card hoverable d-inline-block" style="max-width: 280px;">
-      <div style="height: 180px; overflow: hidden; background: #111827;">
+{% assign repo_parts = include.repository | split: '/' %}
+{% assign owner = repo_parts[0] %}
+{% assign repo_name = repo_parts[1] %}
+{% assign repo_img = site.data.repository_images[repo_name] | default: 'lv-grid-visibility.jpg' %}
+
+<div class="repo p-2">
+  <a href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer">
+    <div class="card hoverable h-100">
+      <div style="height: 155px; overflow: hidden; background: #111827;">
         <img
-          src="{{ '/assets/img/repo_preview/159996034.jpg' | relative_url }}"
-          alt="{{ include.username }}"
+          src="{{ '/assets/img/' | append: repo_img | relative_url }}"
+          alt="{{ repo_name }}"
           style="width: 100%; height: 100%; object-fit: cover;"
         >
       </div>
+
       <div class="card-body">
-        <h5 class="card-title mb-1">{{ include.username }}</h5>
-        <p class="card-text text-muted mb-0">GitHub profile</p>
+        <h5 class="card-title mb-1">{{ repo_name | replace: '_', ' ' | replace: '-', ' ' }}</h5>
+        <p class="card-text text-muted mb-0">{{ owner }}/{{ repo_name }}</p>
       </div>
     </div>
   </a>
